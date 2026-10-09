@@ -130,9 +130,18 @@ def make_banner(pid, name, author, c1, c2):
         icd.text(((300-tw)/2-bb[0],(300-th)/2-bb[1]),ch,font=f,fill=hexc(c2))
     except Exception: pass
     g.paste(rounded(ic,66),(70,138),rounded(ic,66))
-    fn = font(76); fa = font(40)
-    disp = name if len(name) <= 16 else name[:15]+"…"
-    d.text((420,210), disp, font=fn, fill=(255,255,255))
+    fa = font(40)
+    # auto-fit title into available width
+    avail = W - 420 - 50
+    size = 80
+    disp = name if len(name) <= 22 else name[:21]+"…"
+    while size > 34:
+        fn = font(size)
+        bb = d.textbbox((0,0), disp, font=fn)
+        if bb[2]-bb[0] <= avail: break
+        size -= 4
+    fn = font(size)
+    d.text((420, 258-size//2), disp, font=fn, fill=(255,255,255))
     d.text((422,320), author or "", font=fa, fill=(255,255,255,220))
     g.convert("RGB").save(path)
 
