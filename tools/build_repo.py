@@ -168,7 +168,7 @@ def build_depiction(p, c1, meta):
                 {"class":"DepictionTableTextView","title":"标识符","text":pid},
                 {"class":"DepictionTableTextView","title":"区段","text":sec},
                 {"class":"DepictionSpacerView","spacing":8},
-                {"class":"DepictionLabelView","text":"来自 Jude's Repo","textColor":"#888888","fontSize":12,"alignment":1}
+                {"class":"DepictionLabelView","text":"来自 JudeGor","textColor":"#888888","fontSize":12,"alignment":1}
             ]},
             {"tabname":"更新","class":"DepictionStackView","views":[
                 {"class":"DepictionMarkdownView","markdown":changelog}
@@ -189,7 +189,7 @@ padding:10px 0;border-bottom:1px solid #222}}</style></head>
 <div class="body"><p>{html.escape(longmd)}</p>
 <div class="r"><span class="k">标识符</span><span>{html.escape(pid)}</span></div>
 <div class="r"><span class="k">区段</span><span>{html.escape(sec)}</span></div>
-<div class="r"><span class="k">来源</span><span>Jude's Repo</span></div></div></body></html>"""
+<div class="r"><span class="k">来源</span><span>JudeGor</span></div></div></body></html>"""
     with open(os.path.join(DEPS, pid+".html"),"w",encoding="utf-8") as f:
         f.write(htmlpage)
 
@@ -236,7 +236,7 @@ def main():
         <div class="t">{html.escape(tag)}</div></div></a>""" for pid,name,author,ver,tag,c1,c2 in cards)
     page = f"""<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Jude's Repo</title><style>
+<title>JudeGor</title><style>
 *{{box-sizing:border-box}}body{{margin:0;font-family:-apple-system,"PingFang SC",sans-serif;
 background:#0b0b0f;color:#f2f2f5}}
 .hd{{text-align:center;padding:64px 20px 40px;background:radial-gradient(120% 100% at 50% 0,#1b2740,#0b0b0f)}}
@@ -259,7 +259,7 @@ display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hi
 .ft{{text-align:center;color:#556;font-size:12px;padding:30px}}
 </style></head><body>
 <div class="hd"><img src="CydiaIcon.png" alt="">
-<h1>Jude's Repo</h1><p>个人越狱源 · rootless · iOS 15+</p>
+<h1>JudeGor</h1><p>个人越狱源 · rootless · iOS 15+</p>
 <div class="btns">
   <a class="sileo" href="sileo://source/{BASE}/">添加到 Sileo</a>
   <a class="zebra" href="zbra://sources/add/{BASE}/">添加到 Zebra</a>
