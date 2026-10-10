@@ -1,0 +1,6 @@
+{
+  "color": "#36d1a6",
+  "tagline": "给 SquidGesture Pro 自定面板套上 Liquidify 液态玻璃",
+  "long": "**LiquidSquidBridge** 是一个联动桥接插件：把 **SquidGesture Pro** 的自定义面板套上 **Liquidify** 的液态玻璃效果。\n\n作为 Liquidify 的外部插件联动，让手势面板也拥有统一的液态玻璃质感。\n\n**依赖**\n- SquidGesture Pro\n- Liquidify",
+  "changelog": "### 1.5.0\n- 面板液态玻璃联动"
+}
