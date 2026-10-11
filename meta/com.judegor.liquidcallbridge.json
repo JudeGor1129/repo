@@ -1,0 +1,6 @@
+{
+  "color": "#2fa8e0",
+  "tagline": "给电话助手(CallAssist)电池悬浮窗套上 Liquidify 液态玻璃",
+  "long": "**LiquidCallBridge** 是一个联动桥接插件：把 **电话助手 (CallAssist)** 的电池详细悬浮窗背景套上 **Liquidify** 的液态玻璃效果。\n\n作为 Liquidify 的外部插件联动，让悬浮窗拥有统一的液态玻璃质感。\n\n**依赖**\n- Liquidify\n- CallAssist (电话助手)",
+  "changelog": "### 1.2.0\n- 电池悬浮窗液态玻璃联动"
+}
