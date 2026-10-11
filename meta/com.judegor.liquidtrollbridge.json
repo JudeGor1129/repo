@@ -1,0 +1,6 @@
+{
+  "color": "#ff9f1c",
+  "tagline": "给 TrollOpen 分屏呼出菜单套上 Liquidify 液态玻璃",
+  "long": "**LiquidTrollBridge** 是一个联动桥接插件：把 **TrollOpen 分屏** 的呼出菜单背景与菜单图标套上 **Liquidify** 的液态玻璃效果。\n\n作为 Liquidify 的外部插件联动，让分屏菜单拥有统一的液态玻璃质感。\n\n**依赖**\n- Liquidify\n- TrollOpen",
+  "changelog": "### 1.0.0\n- 首发：分屏呼出菜单液态玻璃联动"
+}
