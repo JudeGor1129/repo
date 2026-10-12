@@ -1,6 +1,6 @@
 {
-  "color": "#ffb703",
+  "color": "#ffb347",
   "tagline": "TrollOpen 分屏菜单图标液态玻璃 · 无边框版",
-  "long": "**LiquidTrollBridge (No Border)** 把 **TrollOpen 分屏** 呼出菜单的图标套上 **Liquidify** 液态玻璃效果，并彻底移除原生圆形描边，视觉更干净。\n\n可与带边框旧版（`com.judegor.liquidtrollbridge`）同源共存，按喜好二选一安装。\n\n**依赖**\n- Liquidify\n- TrollOpen",
-  "changelog": "### 1.1.0\n- 移除菜单图标原生圆形描边（无边框版）\n- 与带边框旧版同源共存"
+  "long": "**LiquidTrollBridge (No Border)** 把 **TrollOpen 分屏** 呼出菜单的图标套上 **Liquidify** 液态玻璃效果，并**彻底移除原生圆形描边**。\n\n无边框版，视觉更干净。可与带边框旧版 (`com.judegor.liquidtrollbridge`) 同源共存，按喜好二选一安装。\n\n**依赖**\n- Liquidify\n- TrollOpen",
+  "changelog": "### 1.1.0\n- 移除菜单图标原生圆形描边\n- 可与带边框旧版共存"
 }
